@@ -12,14 +12,24 @@ body {
         background-color: #333;
     }
 
-   
-    .button {
-        background-color: #4CAF50; /* Green */
-        border: none;
+    li {
+        float: left;
+        /* ou left*/
+        /* mets les liens tous un à côté de l'autre*/
+    }
+
+    li a {
+        display: block;
+        /*pour être cliquable*/
+        padding: 8px;
+        /* espace entre liens et bordures*/
         color: white;
-        padding: 15px 32px;
-        text-align: center;
         text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-      }
+        /*enleve le soulignement*/
+        padding: 14px 16px;
+        /*espace haut/bas 14px et droite/gauche 16px*/
+    }
+
+    li a:hover {
+        background-color: blue;
+    }

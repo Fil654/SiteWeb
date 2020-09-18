@@ -6,16 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        ul {
+            list-style-type: none;
+            /*enleve les picos*/
+            margin: 0;
+            padding: 0;
+            position: fixed;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+            /* ou left*/
+            /* mets les liens tous un à côté de l'autre*/
+        }
+
+        li a {
+            display: block;
+            /*pour être cliquable*/
+            padding: 8px;
+            /* espace entre liens et bordures*/
+            color: white;
+            text-decoration: none;
+            /*enleve le soulignement*/
+            padding: 14px 16px;
+            /*espace haut/bas 14px et droite/gauche 16px*/
+        }
+
+        li a:hover {
+            background-color: blue;
+        }
+
+        .active {
+            background-color: #4CAF50;
+        }
+    </style>
 </head>
 
 
 <body>
     <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#news">News</a></li>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#compétences">Compétences</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li style="float: right;"><a class="active" href="#about">
-                About</a></li>
+        <li style="float: left;"><a class="active" href="#Blog">
+                Blog</a></li>
     </ul>
 
     <p>
