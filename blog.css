@@ -1,0 +1,28 @@
+html{
+    border: 15px solid rgb(200, 200, 200); /* width, style, colour */
+    width: auto;
+    margin-top: 50px;
+}
+
+body 
+    {
+        background-color: #FFFFFF;
+        width: 500px;
+        margin: 100px auto;
+        
+
+    } 
+p {
+    text-align: left;
+}
+
+h1 {
+    text-align: center;  
+} 
+h4 {
+    text-align: center;  
+} 
+
+
+
+
