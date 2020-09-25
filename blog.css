@@ -13,17 +13,17 @@ body
 
     } 
 b {
-    font-size: large;
+    font-size: larger;
 }
 p {
     text-align: left;
-    font-size: larger;
+    font-size: x-large;
 }
 
 h1 {
     text-align: center;
 } 
-h2 {
+h3 {
     text-align: center;  
 } 
 
