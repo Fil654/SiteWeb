@@ -23,6 +23,48 @@ h3 {
     text-align: center;  
 } 
 
+a { 
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    /*enleve les picos*/
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    overflow: hidden;
+    background-color: rgba(84, 179, 223, 0.767);
+}
+
+li a {
+    display: block;
+    /*pour être cliquable*/
+    padding: 8px;
+    /* espace entre liens et bordures*/
+    color: white;
+    text-decoration: none;
+    /*enleve le soulignement*/
+    padding: 14px 16px;
+    /*espace haut/bas 14px et droite/gauche 16px*/
+}
+
+li a:hover {
+    background-color: blue;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+#menu {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    width: 8em;
+    margin-top: -2.5em;
+  }
+
 
 
 
