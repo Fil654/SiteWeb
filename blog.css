@@ -12,14 +12,18 @@ body
         
 
     } 
+b {
+    font-size: large;
+}
 p {
     text-align: left;
+    font-size: larger;
 }
 
 h1 {
-    text-align: center;  
+    text-align: center;
 } 
-h3 {
+h2 {
     text-align: center;  
 } 
 
