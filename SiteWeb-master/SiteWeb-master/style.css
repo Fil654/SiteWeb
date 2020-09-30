@@ -5,8 +5,13 @@ html,
 
 body {
 	margin: 0;
-	background:rgb(99, 99, 99);
-	font-weight: 800;
+	background-color:rgb(32, 32, 32);
+  font-weight: 800;
+  background-image: url("imagebackgroud.jpg");
+ background-position-x: center;
+ background-repeat: no-repeat;
+ background-position-y: center;
+ background-size: 60%;
 }
 
 .container {
@@ -78,7 +83,7 @@ nav a:hover::before {
 button {
     
     text-align: center;
-  
+
     transform: translate (-50%, -50%);
   }
 
@@ -92,7 +97,7 @@ button {
     border-radius: 4px;
     transition : .6s;
     overflow: hidden;
-    text-align: center;
+    
   }
 
 
@@ -116,7 +121,7 @@ button {
     filter: blur(30px);
     transform:translateX(-130px) skewX(-15deg);
 
-  }
+  } 
   button :after{
     content: '';  
     display: block;
@@ -155,6 +160,7 @@ button:hover:after{
 
 .site-footer
 {
+  position: sticky;
   background-color:#26272b;
   padding:45px 0 20px;
   font-size:15px;
